@@ -5,7 +5,8 @@
         "nombre":"El nombre del viento",
         "precio": 520,
         "img":"/img/img1.jpg",
-        "categoria":"fantasia"
+        "categoria":"fantasia", 
+        "descripcion": "En una posada en tierra de nadie, un hombre se dispone a relatar, por primera vez, la auténtica historia de su vida. Una historia que únicamente él conoce y que ha quedado diluida tras los rumores, las conjeturas y los cuentos de taberna que le han convertido en un personaje legendario a quien todos daban ya por muerto: Kvothe# músico, mendigo, ladrón, estudiante, mago, héroe y asesino. Ahora va a revelar la verdad sobre sí mismo. Y para ello debe empezar por el principio: su infancia en una troupe de artistas itinerantes, los años malviviendo como un ladronzuelo en las calles de una gran ciudad y su llegada a una universidad donde esperaba encontrar todas las respuestas que había estado buscando. «Viajé, amé, perdí, confié y me traicionaron.» «He robado princesas a reyes agónicos. Incendié la ciudad de Trebon. He pasado la noche con Felurian y he despertado vivo y cuerdo. Me expulsaron de la Universidad a una edad a la que a la mayoría todavía no los dejan entrar. He recorrido de noche caminos de los que otros no se atreven a hablar ni siquiera de día. He hablado con dioses, he amado a mujeres y he escrito canciones que hacen llorar a los bardos. »Me llamo Kvothe. Quizá hayas oído hablar de mí.»"
     },
     
     {
@@ -13,7 +14,9 @@
         "nombre":"El señor de los anillos (trilogia)",
         "precio": 859,
         "img":"/img/img2.jpg",
-        "categoria":"fantasia"
+        "categoria":"fantasia",
+        "descripcion":"En 1955 J.R.R. Tolkien puso el punto final a El Señor de los Anillos con la publicación de El Retorno del Rey. En ese momento el profesor de Oxford no podía siquiera sospechar que acababa de dar a conocer al mundo la que se convertiría en la obra cumbre de la fantasía épica. Para celebrar el sesenta aniversario de esta obra clave de la literatura universal, Minotauro presenta un estuche de lujo que contiene los tres volúmenes de El Señor de los Anillos con las sobrecubiertas que diseñó Tolkien para la primera edición, y el volumen El Señor de los Anillos: Guía de lectura, en el que los expertos en Tolkien, Wayne G. Hammond y Christina Scull, analizan la obra capítulo a capítulo a través de reflexiones acerca de su evolución, estructura y significado. Este impresionante volumen también contiene una breve historia de El Señor de los Anillos, un listado de los errores e inconsistencias corregidos en esta edición y la Nomenclatura o guía de nombres que Tolkien puso a disposición de los traductores y que había permanecido inédita en castellano hasta la fecha"
+
     },
 
     {
@@ -21,7 +24,8 @@
         "nombre":"Dune",
         "precio": 449,
         "img":"/img/img3.jpg",
-        "categoria":"ciencia ficcion"
+        "categoria":"ciencia ficcion",
+        "descripcion":"En el desértico planeta Arrakis, el agua es el bien más preciado y llorar a los muertos, el símbolo de máxima prodigalidad. Pero algo hace de Arrakis una pieza estratégica para los intereses del Emperador, las Grandes Casas y la Cofradía, los tres grandes poderes de la galaxia. Arrakis es el único origen conocido de la melange, preciosa especia y uno de los bienes más codiciados del universo. Al duque Leto Atreides se le asigna el gobierno de este mundo inhóspito, habitado por los indómitos Fremen y monstruosos gusanos de arena de centenares de metros de longitud. Sin embargo, cuando la familia es traicionada, su hijo y heredero, Paul, emprenderá un viaje hacia un destino más grande del que jamás hubiese podido soñar. Mezcla fascinante de aventura, misticismo, intrigas políticas y ecologismo, Dune se convirtió, desde el momento de su publicación, en un fenómeno de culto y en la mayor epopeya de ciencia-ficción de todos los tiempos."
     },
 
     {
@@ -29,7 +33,8 @@
         "nombre":"Un mundo feliz",
         "precio": 269,
         "img":"/img/img4.webp",
-        "categoria":"ciencia ficcion"
+        "categoria":"ciencia ficcion",
+        "descripcion":"Nueva visita a un mundo feliz es la obra que años después escribió Husley analizando su propia novela y juzgando en qué se había equivocado y, sobre todo, en qué había acertado al detectar tendencias sociales y políticas que amenazaban a la cultura humanística y a la libertad del ser humano. Dos textos que se complementan y enriquecen mutuamente, además de una invitación a la reflexión sobre el destino de la humanidad."
     },
 
     {
@@ -37,7 +42,8 @@
         "nombre":"La isla del Tesoro",
         "precio": 248,
         "img":"/img/img5.jpg",
-        "categoria":"aventura"
+        "categoria":"aventura",
+        "descripcion":"La isla del tesoro narra una aventura de un tiempo lejano, en el que todavía había piratas y tesoros escondidos en islas desiertas. En esta novela, un mapa de una isla cae en manos del joven Jim Hawkins. El mapa indica el lugar donde el mayor pirata de todos los tiempos ha escondido su botín."
     },
 
     {
@@ -45,7 +51,8 @@
         "nombre":"Robinson Crusoe",
         "precio": 198,
         "img":"/img/img6.jpg",
-        "categoria":"aventura"
+        "categoria":"aventura",
+        "descripcion":"Las aventuras de Robinson Crusoe comienzan un día en el que, desobedeciendo la voluntad de su padre, que desea que estudie leyes, el joven decide acompañar a un amigo suyo en un viaje por mar. Este primer viaje despierta en Robinson el ansia por conocer mundo, y se embarca en distintas expediciones. En una de ellas, el barco en el que viaja naufraga, y Robinson es el único superviviente. Perdido en una isla desierta deberá sobrevivir a las necesidades más elementales de la vida y, sobre todo, deberá sobrevivir a la soledad. Robinson Crusoe es todo un clásico de la literatura de aventuras."
     },
 
     {
@@ -53,7 +60,8 @@
         "nombre":"It",
         "precio": 372,
         "img":"/img/img7.jpg",
-        "categoria":"terror"
+        "categoria":"terror",
+        "descripcion":"Varios niños de una pequeña ciudad del estado de Maine se alían para combatir a una entidad diabólica que adopta la forma de un payaso y desde hace mucho tiempo emerge cada 27 años para saciarse de sangre infantil."
     },
 
     {
@@ -61,7 +69,8 @@
         "nombre":"El resplandor",
         "precio": 668,
         "img":"/img/img8.jpg",
-        "categoria":"terror"
+        "categoria":"terror",
+        "descripcion":"Jack Torrance se convierte en cuidador de invierno en el Hotel Overlook, en Colorado, con la esperanza de vencer su bloqueo con la escritura. Se instala allí junto con su esposa, Wendy, y su hijo, Danny, que está plagado de premoniciones psíquicas. Mientras la escritura de Jack no fluye y las visiones de Danny se vuelven más preocupantes, Jack descubre oscuros secretos del hotel y comienza a convertirse en un maníaco homicida, empeñado en aterrorizar a su familia."
     },
 
     {
@@ -69,7 +78,8 @@
         "nombre":"Orgullo y Prejuicio",
         "precio": 243,
         "img":"/img/img9.gif",
-        "categoria":"romance"
+        "categoria":"romance",
+        "descripcion":"Con la llegada del rico y apuesto Mr. Darcy a su región, las vidas de los Bennet y sus cinco hijas se vuelven del revés. El orgullo y la distancia social, la astucia y la hipocresía, los malentendidos y los juicios apresurados abocan a sus personajes al escándalo y al dolor, pero también a la comprensión, el conocimiento y el amor verdadero. Esta edición presenta al lector una nueva traducción al castellano que devuelve todo su esplendor al ingenio y la finísima ironía de la prosa de Austen. Satírica, antirromántica, profunda y mordaz a un tiempo, la obra de Jane Austen nace de la observación de la vida doméstica y de un profundo conocimiento de la condición humana."
     },
 
     {
@@ -77,7 +87,8 @@
         "nombre":"Cumbres borrascosas",
         "precio": 322,
         "img":"/img/img10.jpg",
-        "categoria":"romance"
+        "categoria":"romance",
+        "descripcion":"Una trágica historia de pasiones encontradas en la Inglaterra rural más conservadora. Se inicia con Catherine, la hija de una familia distinguida, y Heatcliff, un campesino adoptado por esa familia, que pasan de ser compañeros de juegos en la infancia a enamorarse."
     },
 
     {
@@ -85,7 +96,8 @@
         "nombre":"Dioses y heroes de la mitologia Griega",
         "precio": 323,
         "img":"/img/img11.jpg",
-        "categoria":"mitologia"
+        "categoria":"mitologia",
+        "descripcion":"En esta obra se narran los relatos míticos más bellos. Entre ellos, el de la creación del Universo, el origen de los dioses del Olimpo y las aventuras de los héroes más valientes, como Heracles, Teseo y Odiseo. Ellos deberán luchar contra terribles monstruos y, sobre todo, contra su propio destino."
     },
 
     {
@@ -93,7 +105,8 @@
         "nombre":"Los mitos griegos",
         "precio": 402,
         "img":"/img/img12.jpg",
-        "categoria":"mitologia"
+        "categoria":"mitologia",
+        "descripcion":"Los mitos griegos es una obra que sistematiza el amplísimo material de la mitología clásica de acuerdo con un método consistente «en reunir en una narración armoniosa todos los elementos diseminados de cada mito, apoyados por variantes poco conocidas que pueden ayudar a determinar su significado, y en responder a todas"
     }
 ]
 }

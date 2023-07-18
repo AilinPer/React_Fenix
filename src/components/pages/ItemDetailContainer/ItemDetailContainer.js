@@ -17,9 +17,11 @@ useEffect(() =>{
   return (
     <div className='tarjeta-detalle'>
       {
-        char.id ? <CardUser char={char}/> : null 
+        char.id ? <CardUser char={char} showDescription={true} /> : null
       }
     </div>
+      
+    
   )
 }
 

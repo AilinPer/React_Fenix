@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+.logo{
+    width: 12%;
+    margin: 15px;
+    border-radius: 10px;
+}
+.logotipo{
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.nombre{
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 10px ;
+    color: white;
+}

@@ -1,12 +1,10 @@
 import React from 'react'
 import './CardWidget.css'
 
-const CardWidget = () => {
-    const carrito1 = "https://w7.pngwing.com/pngs/225/984/png-transparent-computer-icons-shopping-cart-encapsulated-postscript-shopping-cart-angle-black-shopping.png" 
+const CardWidget = () => { 
     return (
         <div className='carrito'>
-            <img src= {carrito1} alt='carrito'/>
-            <p className='numero'>5</p>
+            <img src= '/img/carrito-de-compras.png' alt='carrito'/>
         </div>
     )
 }

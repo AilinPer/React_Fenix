@@ -1,22 +1,66 @@
-import React from 'react'
+/*import React from 'react'*/
 import "./Navbar.css"
 import CardWidget from '../CardWidget/CardWidget'
 import { Link } from 'react-router-dom'
+import * as React from 'react';
+import Button from '@mui/material/Button';
+import Menu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
 
 const Navbar = () => {
+        const [anchorEl, setAnchorEl] = React.useState(null);
+        const open = Boolean(anchorEl);
+        const handleClick = (event) => {
+          setAnchorEl(event.currentTarget);
+        };
+        const handleClose = () => {
+          setAnchorEl(null);
+        };
     return (
         <nav className='Nav'>
-            <Link className='logo' to="/"><img  src='https://e7.pngegg.com/pngimages/973/11/png-clipart-phoenix-logo-design-mark-phoenix.png' alt='imagen'/></Link>
             <ul>
-                <Link className='li' to="/"> Inicio </Link>
-                <Link className='li' to="/Filtrado"> Filtrado </Link>
-                <Link className='li' to="/Contacto"> Contacto </Link>
-                <Link className='li' to="/Category/fantasia"> Fantasia </Link>
-                <Link className='li' to="/Category/terror"> Terror </Link>
+                <Link className='li' to="/"> INICIO </Link>
+                <Button className="li"
+                    // id="lock-button"
+                    // aria-haspopup="listbox"
+                    // aria-controls="lock-menu"
+                    onClick={handleClick}
+                >
+                    Filtrado
+                </Button>
+                <Menu
+                    id="lock-menu"
+                    anchorEl={anchorEl}
+                    open={open}
+                    onClose={handleClose}
+                    MenuListProps={{
+                      'aria-labelledby': 'lock-button',
+                      role: 'listbox',
+                    }}
+                >
+                    <MenuItem>
+                        <Link className='menu' to="/Category/fantasia"> Fantasia </Link> 
+                    </MenuItem>
+                    <MenuItem >
+                        <Link className='menu' to="/Category/terror"> Terror </Link>
+                    </MenuItem>
+                    <MenuItem>
+                        <Link className='menu' to="/Category/ciencia ficcion"> Ciencia-Ficción </Link>
+                    </MenuItem>
+                    <MenuItem >
+                        <Link className='menu' to="/Category/aventura"> Aventura </Link>
+                    </MenuItem>
+                    <MenuItem >
+                        <Link className='menu' to="/Category/romance"> Romance </Link>
+                    </MenuItem>
+                    <MenuItem >
+                        <Link className='menu' to="/Category/mitologia"> Mitologia </Link>
+                    </MenuItem>
+                </Menu>
+                <Link className='li' to="/Contacto"> CONTACTO </Link>
                 <Link className='li' to="/Carrito"> <CardWidget/> </Link>
             </ul>
         </nav>
     )
 }
-
 export default Navbar

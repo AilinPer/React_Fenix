@@ -2,6 +2,7 @@ import {useEffect, useState} from 'react'
 import { useParams } from 'react-router-dom'
 import CardUser from "../../CardUser/CardUser"
 import "../../ItemListContainer/ItemListContainer.css"
+import "./Category.css"
 
 const Category = () => {
     const [chars, setChars] = useState([])
@@ -21,7 +22,7 @@ const Category = () => {
     },[])
 
     return (
-        <div className='tarjeta-diseño'>
+        <div className='tarjeta-diseño1'>
             {filteredLibros.map((char) => {
                 return(
                     <div key ={char.id}>
