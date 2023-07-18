@@ -1,0 +1,99 @@
+{
+    "resultado": [
+    {
+        "id":1,
+        "nombre":"El nombre del viento",
+        "precio": 520,
+        "img":"/img/img1.jpg",
+        "categoria":"fantasia"
+    },
+    
+    {
+        "id":2,
+        "nombre":"El señor de los anillos (trilogia)",
+        "precio": 859,
+        "img":"/img/img2.jpg",
+        "categoria":"fantasia"
+    },
+
+    {
+        "id":3,
+        "nombre":"Dune",
+        "precio": 449,
+        "img":"/img/img3.jpg",
+        "categoria":"ciencia ficcion"
+    },
+
+    {
+        "id":4,
+        "nombre":"Un mundo feliz",
+        "precio": 269,
+        "img":"/img/img4.webp",
+        "categoria":"ciencia ficcion"
+    },
+
+    {
+        "id":5,
+        "nombre":"La isla del Tesoro",
+        "precio": 248,
+        "img":"/img/img5.jpg",
+        "categoria":"aventura"
+    },
+
+    {
+        "id":6,
+        "nombre":"Robinson Crusoe",
+        "precio": 198,
+        "img":"/img/img6.jpg",
+        "categoria":"aventura"
+    },
+
+    {
+        "id":7,
+        "nombre":"It",
+        "precio": 372,
+        "img":"/img/img7.jpg",
+        "categoria":"terror"
+    },
+
+    {
+        "id":8,
+        "nombre":"El resplandor",
+        "precio": 668,
+        "img":"/img/img8.jpg",
+        "categoria":"terror"
+    },
+
+    {
+        "id":9,
+        "nombre":"Orgullo y Prejuicio",
+        "precio": 243,
+        "img":"/img/img9.gif",
+        "categoria":"romance"
+    },
+
+    {
+        "id":10,
+        "nombre":"Cumbres borrascosas",
+        "precio": 322,
+        "img":"/img/img10.jpg",
+        "categoria":"romance"
+    },
+
+    {
+        "id":11,
+        "nombre":"Dioses y heroes de la mitologia Griega",
+        "precio": 323,
+        "img":"/img/img11.jpg",
+        "categoria":"mitologia"
+    },
+
+    {
+        "id":12,
+        "nombre":"Los mitos griegos",
+        "precio": 402,
+        "img":"/img/img12.jpg",
+        "categoria":"mitologia"
+    }
+]
+}

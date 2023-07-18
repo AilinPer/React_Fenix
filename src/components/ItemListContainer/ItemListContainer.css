@@ -1,0 +1,18 @@
+.texto{
+    text-align: center;
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 3%;
+}
+
+.tarjeta-diseño{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    place-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 50px 0px;
+    padding: 5% 0%;
+}
+
