@@ -8,24 +8,24 @@ import Typography from '@mui/material/Typography';
 import "./CardUser.css"
 
 
-const CardUser = ({char, showDescription}) =>  {
+const CardUser = ({data, showDescription}) =>  {
   return (
     <Card sx={{ maxWidth: 500 }}>
       <CardMedia
         component="img"
         alt="libros"
         height="450"
-        image={char.img}
+        image={data.img}
       />
       <CardContent>
         <Typography gutterBottom variant="h4" component="div">
-          {char.nombre}
+          {data.nombre} 
         </Typography>
         <Typography variant="h5" color="text.secondary">
-          ${char.precio} | {char.categoria}
+          ${data.precio} | {data.categoria} 
         </Typography>
         <Typography variant="h5" color="text.secondary">
-          {showDescription && <p className='desc'>{char.descripcion}</p>}
+          {showDescription && <p className='desc'>{data.descripcion}</p>}
         </Typography>
       </CardContent>
       <CardActions>
