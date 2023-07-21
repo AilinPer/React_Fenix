@@ -4,3 +4,12 @@
     margin-top: 2%;
     color:black;
 }
+
+.css-o69gx8-MuiCardMedia-root{
+    display: none;
+    justify-content: space-evenly;
+}
+
+.css-1t6e9jv-MuiCardActions-root{
+    justify-content: center;
+}

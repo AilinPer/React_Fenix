@@ -5,29 +5,7 @@ import "./ItemDetailContainer.css"
 
 //firebase
 import { db } from "../../../firebase/firebaseConfig"
-import { doc, getDocs } from "firebase/firestore"
-
-//  const ItemDetailContainer = () => {
-//    const [char, setChar] = useState({})
-
-//  let { id } = useParams()
-
-//  useEffect(() =>{
-//    fetch('/productos.json')
-//    .then((Response) => Response.json())
-//    .then((json) => setChar(json.resultado.find(item => item.id === parseInt(id))))
-//  },[id])
-
-//    return (
-//      <div className='tarjeta-detalle'>
-//        {
-//          data.id ? <CardUser char={data} showDescription={true} /> : null
-//       }
-//      </div>
-    
-  
-//  )
-//  }
+import { doc, getDoc } from "firebase/firestore"
 
 const ItemDetailContainer = () => {
   const [libros, setLibros] = useState({})
@@ -37,7 +15,7 @@ const ItemDetailContainer = () => {
     const getLibros = async () => {
       try{
         const q = doc(db, 'libros', id)
-        const querySnapshot = await getDocs(q)
+        const querySnapshot = await getDoc(q)
 
         if (querySnapshot.exists()) {
           setLibros({ ...querySnapshot.data(), id: querySnapshot.id }
@@ -51,7 +29,7 @@ const ItemDetailContainer = () => {
 
   return (
     <div className='tarjeta-detalle'>
-      {libros.id ? <CardUser libros={libros} showDescription={true} /> : null}
+      {libros.id ? <CardUser data={libros} showDescription={true} /> : null}
     </div>
   )
 }

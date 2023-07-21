@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.formulario-opinion {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .formulario-opinion h2 {
+    margin-bottom: 20px;
+  }
+  
+  .formulario-opinion form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formulario-opinion label {
+    font-weight: bold;
+  }
+  
+  .formulario-opinion input,
+  .formulario-opinion textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .formulario-opinion button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .formulario-opinion button:hover {
+    background-color: #ddd;
+  }
+  
+  .agradecimiento{
+    font-size: 50px;
+    text-align: center;
+
+  }

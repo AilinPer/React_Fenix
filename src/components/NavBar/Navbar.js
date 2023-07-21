@@ -20,10 +20,7 @@ const Navbar = () => {
         <nav className='Nav'>
             <ul>
                 <Link className='li' to="/"> INICIO </Link>
-                <Button className="li"
-                    // id="lock-button"
-                    // aria-haspopup="listbox"
-                    // aria-controls="lock-menu"
+                <Button size="large"  style={{ color: '#fff', fontSize:"1.5rem"}}
                     onClick={handleClick}
                 >
                     Filtrado
